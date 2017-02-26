@@ -64,8 +64,9 @@ return [
     | to any of the locales which will be supported by the application.
     |
     */
-
-    'locale' => 'en',
+   
+    'locales' => ['en' => 'English', 'in' => 'Indonesia'],
+    'skip_locales' => ['admin', 'api'],
 
     /*
     |--------------------------------------------------------------------------
@@ -181,6 +182,7 @@ return [
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
         Barryvdh\Snappy\ServiceProvider::class,
+        DidierDeMaeyer\MultipleLocales\Providers\MultipleLocalesServiceProvider::class,
 
     ],
 

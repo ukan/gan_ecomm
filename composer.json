@@ -29,7 +29,8 @@
         "dompdf/dompdf": "^0.6.1",
         "barryvdh/laravel-snappy": "^0.3.1",
         "hbattat/verifyemail": "^1.0.7",
-        "google/apiclient" : "^1.1"
+        "google/apiclient" : "^1.1",
+        "didierdemaeyer/laravel-multiple-locales": "1.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
