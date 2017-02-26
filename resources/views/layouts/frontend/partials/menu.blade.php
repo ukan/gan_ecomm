@@ -1,6 +1,6 @@
 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 	<ul class="nav navbar-nav ">
-		<li class=" active"><a href="index.html" class="hyper "><span>@lang('general.menu.home')</span></a></li>	
+		<li class=" active"><a href="{{ route('home') }}" class="hyper "><span>@lang('general.menu.home')</span></a></li>	
 		<li class="dropdown ">
 			<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Clothing<b class="caret"></b></span></a>
 				<ul class="dropdown-menu multi">
@@ -64,7 +64,7 @@
 					</div>	
 				</ul>
 		</li>
-		<li><a href="about.html" class="hyper"><span>@lang('general.menu.about')</span></a></li>
-		<li><a href="contact.html" class="hyper"><span>@lang('general.menu.contact_us')</span></a></li>
+		<li><a href="{!! route('about') !!}" class="hyper"><span>@lang('general.menu.about')</span></a></li>
+		<li><a href="{!! route('contact-us') !!}" class="hyper"><span>@lang('general.menu.contact_us')</span></a></li>
 	</ul>
 </div>

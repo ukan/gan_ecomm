@@ -2,13 +2,13 @@
 <div class="newsletter">
 	<div class="container">
 		<div class="col-md-6 w3agile_newsletter_left">
-			<h3>Newsletter</h3>
+			<h3>@lang('general.title.newsletter')</h3>
 			<p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
 		</div>
 		<div class="col-md-6 w3agile_newsletter_right">
 			<form action="#" method="post">
-				<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-				<input type="submit" value="Subscribe" />
+				<input class="form-control" type="email" id="email" name="email" placeholder="@lang('general.form.email')" required>
+				<input type="submit" value="@lang('general.button.subscribe')" />
 			</form>
 		</div>
 		<div class="clearfix"> </div>
@@ -30,7 +30,7 @@
 		</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd2">
-			<h4>Information</h4> 
+			<h4>@lang('general.title.information')</h4> 
 			<ul>
 				<li><a href="contact.html">Contact Us</a></li>
 				<li><a href="icons.html">Web Icons</a></li>
@@ -39,7 +39,7 @@
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd3">
-			<h4>Shop</h4> 
+			<h4>@lang('general.title.shop')</h4> 
 			<ul>
 				<li><a href="jewellery.html">Jewellery</a></li>
 				<li><a href="cosmetics.html">Cosmetics</a></li>
@@ -48,13 +48,13 @@
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd4">
-			<h4>My Account</h4> 
+			<h4>@lang('general.title.my_account')</h4> 
 			<ul>
 				
-				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Register</a></li>
-				<li><a href="recommended.html">Recommended </a></li>
-				<li><a href="payment.html">Payments</a></li>
+				<li><a href="login.html">@lang('general.title.login')</a></li>
+				<li><a href="register.html">@lang('general.title.register')</a></li>
+				<li><a href="recommended.html">@lang('general.title.recommended')</a></li>
+				<li><a href="payment.html">@lang('general.title.payment')</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>

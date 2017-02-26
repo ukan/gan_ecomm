@@ -43,8 +43,8 @@
 		</script>
 		<div class="col-md-4 search-agileinfo">
 			<form action="#" method="post">
-				<input type="search" name="Search" placeholder="Search for a Product..." required="">
-				<button type="submit" class="btn btn-default search" aria-label="Left Align">
+				<input class="form-control col-sm-1" type="search" id="search" name="search" placeholder="@lang('general.form.search')" required>
+				<button type="submit" class="btn btn-success search col-sm-2" aria-label="Left Align">
 					<i class="fa fa-search" aria-hidden="true"> </i>
 				</button>
 			</form>
